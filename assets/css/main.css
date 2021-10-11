@@ -239,6 +239,9 @@ footer a{
 }
 @media (min-width:641px)  { 
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .intro{
+        background-attachment: fixed;
+    }
     .intro h1{
         font-size: 60px;
         text-align: center;
