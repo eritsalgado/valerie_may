@@ -24,6 +24,12 @@ header{
     background-color: white!important;
     padding: 0!important;
 }
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler i{
+    color: var(--btn_primary);
+}
 .nav-logo{
     height: 70px;
 }
