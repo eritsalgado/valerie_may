@@ -1,0 +1,40 @@
+@import url('./fonts.css');
+@import url('./general.css');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.galeria{
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.galeria img{
+    width: 100%;
+    object-fit: cover;
+}
+.columna{
+    flex: 20%;
+    margin: 5px;
+}
+.columna img{
+    margin-top: 5px;
+}
+
+
+@media (max-width: 800px) {
+    .columna{
+        flex: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .columna{
+        flex: 100%;
+    }
+}

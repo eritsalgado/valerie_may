@@ -1,0 +1,46 @@
+/*
+ FONTS
+
+ ******** Cinzel *******
+*/
+@font-face {
+    font-family: 'cinzel';
+    src: url('../fonts/cinzel/Cinzel-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cinzel';
+    src: url('../fonts/cinzel/Cinzel-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+/* ****** Cormorant ******* */
+
+@font-face {
+    font-family: 'cormorant';
+    src: url('../fonts/cormorant/Cormorant-Light.ttf') format('ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cormorant';
+    src: url('../fonts/cormorant/Cormorant-LightItalic.ttf') format('ttf');
+    font-weight: lighter;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'cormorant';
+    src: url('../fonts/cormorant/Cormorant-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cormorant';
+    src: url('../fonts/cormorant/Cormorant-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+/*
+ FONTS
+*/

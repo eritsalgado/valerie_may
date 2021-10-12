@@ -1,102 +1,5 @@
-/*
- FONTS
-
- ******** Cinzel *******
-*/
-@font-face {
-    font-family: 'cinzel';
-    src: url('../fonts/cinzel/Cinzel-Regular.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'cinzel';
-    src: url('../fonts/cinzel/Cinzel-Bold.ttf') format('ttf');
-    font-weight: bold;
-    font-style: normal;
-}
-/* ****** Cormorant ******* */
-
-@font-face {
-    font-family: 'cormorant';
-    src: url('../fonts/cormorant/Cormorant-Light.ttf') format('ttf');
-    font-weight: lighter;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'cormorant';
-    src: url('../fonts/cormorant/Cormorant-LightItalic.ttf') format('ttf');
-    font-weight: lighter;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'cormorant';
-    src: url('../fonts/cormorant/Cormorant-Regular.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'cormorant';
-    src: url('../fonts/cormorant/Cormorant-Bold.ttf') format('ttf');
-    font-weight: bold;
-    font-style: normal;
-}
-/*
- FONTS
-*/
-
-/* GENERAL */
-:root {
-    --btn_primary: rgb(212,182,148);
-    --btn_primery_hover: rgb(180,146,108);
-
-    --bg_anuncio: rgb(246,235,228);
-    --txt_anuncio: #624C40;
-    --txt_anuncio_hover: #9e7e6d;
-
-    --bg_principal: #F8F8F8;
-}
-
-body{
-    font-family: 'cormorant';
-    background-color: var(--bg_principal);
-}
-
-header{
-    height: 80px
-}
-
-.navbar{
-    background-color: white!important;
-    padding: 0!important;
-}
-.nav-logo{
-    height: 70px;
-}
-.navbar-nav {
-    margin-left: auto;
-}
-.nav-link{
-    color:var(--btn_primary)!important;
-    padding-right: .9rem!important;
-    padding-left: .9rem!important;
-}
-
-footer{
-    width: 100%;
-    height: 70px;
-    background-color: black;
-}
-footer .container{
-    height: 100%;
-}
-footer a{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-}
-/* GENERAL */
-
+@import url('./fonts.css');
+@import url('./general.css');
 
 /* PAGINA PRINCIPAL */
 /*----------------------------*/
@@ -120,14 +23,6 @@ footer a{
 .intro small
 {
     text-shadow: none;
-}
-.btn-primary{
-    background-color:var(--btn_primary)!important;
-    border: none!important;
-}
-.btn-primary:hover{
-    background-color:var(--btn_primery_hover)!important;
-    border: none!important;
 }
 /* SECCION INTRO */
 /*----------------------------*/
@@ -266,9 +161,6 @@ footer a{
     }
     .presentacion p{
         text-align: left;
-    }
-    .nav-logo{
-        margin-left: 50px;
     }
 }
 @media (min-width:961px)  { 
