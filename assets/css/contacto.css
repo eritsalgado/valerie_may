@@ -1,0 +1,80 @@
+@import url('./fonts.css');
+@import url('./general.css');
+
+body{
+    background-color: white;
+    color: #292929;
+}
+p{
+    margin: 0;
+}
+
+.contacto h1{
+    letter-spacing: 0.25em;
+    font-size: 36px;
+}
+.contacto p{
+    font-size: 17px;
+}
+.contacto a{
+    color: var(--btn_primary);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid var(--btn_primary);
+}
+.contacto small:nth-child(1){
+    color: #7D7D7C;
+    font-size: 20px;
+    font-style: italic;
+}
+.contacto strong{
+    color: var(--btn_primary);
+    font-weight: bold;
+    font-size: 20px;
+}
+.contacto p small strong{
+    color: #7D7D7C;
+    font-weight: bold;
+}
+.contacto .form-control{
+    background: none;
+    border: none;
+    border-bottom: 7px solid var(--btn_primary_light);
+    border-radius: 0;
+    font-size: 15px;
+    font-style: italic;
+}
+.contacto textarea{
+    border: none!important;
+    box-shadow: rgb(204, 201, 201) 0px 0px 10px;
+    border-radius: 5px!important;
+    font-size: 20px!important;
+}
+.form-control:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+*:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+textarea:focus{
+    box-shadow: rgb(204, 201, 201) 0px 0px 10px!important;
+}

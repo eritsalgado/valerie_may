@@ -1,6 +1,7 @@
 /* GENERAL */
 :root {
     --btn_primary: rgb(212,182,148);
+    --btn_primary_light: rgb(246, 232, 215);
     --btn_primery_hover: rgb(180,146,108);
 
     --bg_anuncio: rgb(246,235,228);
