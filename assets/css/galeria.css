@@ -20,7 +20,7 @@ body{
     object-fit: cover;
 }
 .columna{
-    flex: 20%;
+    flex: 25%;
     margin: 5px;
 }
 .columna img{
